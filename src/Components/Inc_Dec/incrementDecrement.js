@@ -18,7 +18,8 @@ export default function IncrementDecrement  () {
 
   return (
     <div className="container">
-      <h1>Increment/decrement counter</h1>
+       <h1>Component 1</h1>
+      <h2>Increment/decrement counter</h2>
       <div className="quantity">
         <Button className="quantity__minus" onClick={decrement}>
           <span>-</span>
